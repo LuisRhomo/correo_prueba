@@ -7,7 +7,6 @@
     $email = $_POST['email'];
     $header = "Enviado desde la pagina de Inmoviliaria";
     $contenido = $mensaje . "\nAtentamente " . $nombre;
-    mail($destino, $asunto, $contenido,$header);
-    echo "<script>alert('correo enviado exitosamente')</script>";
-    echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";    
+    mail($destino, $asunto, $contenido, $header);
+    echo "<script>alert('correo enviado exitosamente')</script>"; 
 ?>
