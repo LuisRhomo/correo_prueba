@@ -15,7 +15,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'milenioflavio@hotmail.com';
+$para = 'luiswishco@gmail.com';
 $asunto = 'Mensaje de PRECOMPC';
 
 mail($para, $asunto, utf8_decode($message), $header);
