@@ -8,6 +8,5 @@
     $header = "Enviado desde la pagina de Inmoviliaria";
     $contenido = $mensaje . "\nAtentamente " . $nombre;
     mail($destino, $asunto, $contenido,$header);
-    echo "<script>alert('correo enviado exitosamente')</script>";
-    echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";    
+    echo "<script>alert('correo enviado exitosamente')</script>"; 
 ?>
