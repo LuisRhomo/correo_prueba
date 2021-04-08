@@ -1,6 +1,6 @@
 <?php
         //En el destino colocar el correo alque quieres que lleguen los datos del contacto de tu formulario
- $destino = "correo@dominio.com";
+ $destino = "luiswischo@gmail.com";
     $nombre = $_POST["nombre"];
     $apellido = $_POST["apellido"];
     $email = $_POST["email"];
